@@ -5,9 +5,20 @@ public abstract class Action {
 		
 	}
 	
-	public Coordonees getDirection(){}
-	public Coordonees getObjectif(){}
-	public Acion(Robot robot, Coordonees direction){}
-	abstract void agit(){}
+	public Coordonees getDirection(){
+		
+	}
+	
+	public Coordonees getObjectif(){
+		
+	}
+	
+	public Acion(Robot robot, Coordonees direction){
+		
+	}
+	
+	abstract void agit(){
+		
+	}
 	
 }
