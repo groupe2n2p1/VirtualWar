@@ -13,7 +13,7 @@ public abstract class Action {
 		
 	}
 	
-	public Acion(Robot robot, Coordonees direction){
+	public Action(Robot robot, Coordonees direction){
 		
 	}
 	
