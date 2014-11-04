@@ -1,8 +1,8 @@
 
 public abstract class Action {
 	
-	public Robot getRobot(){
-		
+	public Robot getRobot(Robot robot){
+		return robot;
 	}
 	
 	public Coordonees getDirection(){

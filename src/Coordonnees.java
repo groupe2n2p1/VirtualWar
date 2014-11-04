@@ -1,9 +1,9 @@
 
-public class Coordonees {
+public class Coordonnees {
 	private int largeur;
 	private int hauteur;
 	
-	public Coordonees(int largeur, int hauteur){
+	public Coordonnees(int largeur, int hauteur){
 		this.hauteur = hauteur;
 		this.largeur = largeur;
 	}
@@ -20,7 +20,7 @@ public class Coordonees {
 		return "hauteur: " + hauteur + " largeur: " + largeur;
 	}
 	
-	public Coordonees ajout(Coordonees coordonees){
-		
+	public Coordonnees ajout(Coordonnees coordonnees){
+		return coordonnees;		
 	}
 }

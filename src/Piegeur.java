@@ -1,3 +1,5 @@
+import java.util.List;
+
 
 public class Piegeur extends Robot {
 
@@ -6,31 +8,31 @@ public class Piegeur extends Robot {
 	}
 
 	public boolean peutTirer() {
-		return false;
+		return true;// a faire
 	}
 
 	public int getCoutAction() {
-		return 0;
+		return 2;
 	}
 
 	public int getCoutDep() {
-		return 0;
+		return 2;
 	}
 
 	public int getDegatTir() {
-		return 0;
+		return 2;
 	}
 
 	public int getDegatMine() {
-		return 0;
+		return 2;
 	}
 
 	public String getType() {
-		return null;
+		return "piegeur";
 	}
 
-	public List<Coordonees> getDeplacements() {
-		return null;
+	public List<Coordonnees> getDeplacements() {
+		return null;// a faire
 	}
 
 }

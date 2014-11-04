@@ -1,5 +1,5 @@
 
-public class Deplacement extends Action{
+public class Deplacement extends Action{//erreur a regarder
 
 	void agit() {
 		
