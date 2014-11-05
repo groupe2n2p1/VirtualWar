@@ -1,16 +1,29 @@
+import java.util.ArrayList;
 
-public class Base extends Cellule{
+public class Base extends Cellule {
 
-	void deplaceSur(Robot robot) {
+	private ArrayList<Robot> list;
+
+	public Base(int largeur, int hauteur) {
+		super(largeur, hauteur);
+		this.list = new ArrayList<Robot>();
+	}
+
+	public void ajoutRobot(Robot r) {
+		list.add(r);
+	}
+
+	public void deplaceSur(Robot robot) {
+		robot.setCoordonnees(new Coordonnees(getLargeur(), getHauteur()));
+	}
+
+	public void ajoute(int equipe) {
 		
 	}
 
-	void ajoute(int equipe) {
-		
-	}
-
-	void videCase() {
-		
+	public void videCase() {
+		this.videContenu();
+		this.videMine();
 	}
 
 }
