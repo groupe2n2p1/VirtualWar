@@ -47,12 +47,10 @@ public abstract class Cellule {
 	abstract void videCase();
 
 	public int getLargeur() {
-		// TODO Auto-generated method stub
 		return this.largeur;
 	}
 
 	public int getHauteur() {
-		// TODO Auto-generated method stub
 		return this.hauteur;
 	}
 

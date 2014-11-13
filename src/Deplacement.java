@@ -1,9 +1,8 @@
 
-public class Deplacement extends Action{//erreur a regarder
+public class Deplacement extends Action{
 
 	public Deplacement(Robot robot, Coordonnees direction) {
 		super(robot, direction);
-		// TODO Auto-generated constructor stub
 	}
 
 	void agit() {
