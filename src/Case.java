@@ -9,7 +9,7 @@ public class Case extends Cellule {
 	}
 
 	void ajoute(int equipe) {
-		//a faire
+		
 	}
 
 	void videCase() {
